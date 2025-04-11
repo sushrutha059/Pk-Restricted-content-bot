@@ -18,4 +18,4 @@ DB_URI = os.environ.get("DB_URI", "mongodb+srv://Pksushrutha:1GEG8irDlpiGvCDY@cl
 DB_NAME = os.environ.get("DB_NAME", "Pksushrutha")
 
 # If You Want Error Message In Your Personal Message Then Turn It True Else If You Don't Want Then Flase
-ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', True))
+ERROR_MESSAGE = bool(os.environ.get('ERROR_MESSAGE', false))
